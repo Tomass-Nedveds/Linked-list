@@ -2,18 +2,6 @@
 #include <stdlib.h>
 using namespace std;
 
-
-void insert(int position, int value){
-    
-    
-}
-
-
-
-
-
-
-
 class Node {
 private:
     int value;
@@ -38,15 +26,13 @@ public:
         }
     }
 
-    // Methods to implement
-    void insert(int position, int value) {}
-    void append(int value) {}
-    void push(int value) {}
-    int pop() {}
-    void del(int position) {}
-    Node* get_elem_by_index(int index) {}
-    void reverse() {}
-    void sort() {}
-    void shuffle() {}
-    bool search(int value) {}
-};
+}   ;
+
+int main() {
+    Node* first = new Node(10);  
+    LinkedList list(first);
+
+    list.display();  // Выведет: 10
+
+    return 0;
+}
