@@ -2,6 +2,18 @@
 #include <stdlib.h>
 using namespace std;
 
+
+void insert(int position, int value){
+    
+    
+}
+
+
+
+
+
+
+
 class Node {
 private:
     int value;
